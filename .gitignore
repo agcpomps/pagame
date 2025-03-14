@@ -1,0 +1,30 @@
+# Binários compilados
+/bin/
+/*.exe
+/*.out
+/*.app
+
+# Cache do Go
+/go/pkg/
+/go/bin/
+/go/src/
+
+# Dependências geradas
+/vendor/
+
+# Arquivos do Go modules
+go.sum
+go.work
+
+# Configurações do editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos de log
+*.log
+
+# Arquivos de ambiente (credenciais, variáveis)
+.env
+.env.local
